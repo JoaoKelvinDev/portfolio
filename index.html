@@ -5,9 +5,8 @@
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title>João Kelvin | backend developer</title>
         <script src="https://cdn.tailwindcss.com"></script>
-        <script src="TelaInicial/script/script.js"></script>
-        <script src="https://unpkg.com/scrollreveal"></script>
-        <link rel="stylesheet" href="TelaInicial/Stylee/style.css">
+        <script src="/script/script.js"></script>
+        <link rel="stylesheet" href="/Stylee/style.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     </head>
@@ -123,7 +122,7 @@
                         <span class="text-[8px] sm:text-[10px] mt-1 sm:mt-2 font-bold text-zinc-500 text-center">JAVASCRIPT</span>
                     </div>
                     <div class="flex flex-col items-center group">
-                        <i class="devicon-python-plain text-2xl sm:text-3xl md:text-4xl text-zinc-600 group-hover:text-yellow-500 transition"></i>
+                        <i class="devicon-python-plain text-2xl sm:text-3xl md:text-4xl text-zinc-600 group-hover:text-blue-500 transition"></i>
                         <span class="text-[8px] sm:text-[10px] mt-1 sm:mt-2 font-bold text-zinc-500 text-center">PYTHON</span>
                     </div>
                     <div class="flex flex-col items-center group">
@@ -171,7 +170,7 @@
         <article class="glass-card rounded-xl overflow-hidden flex flex-col reveal-bottom italic group">
             <div class="relative h-40 sm:h-48 overflow-hidden bg-[#0f0f0f] flex items-center justify-center p-2">
 
-                <img src="TelaInicial/imagem/IMG PROJETOS/hero-children.jpg" alt="Lar da Criança" 
+                <img src="/imagem/IMG PROJETOS/hero-children.jpg" alt="Lar da Criança" 
                      class="h-100 h-100 object-contain grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700">
                 <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             </div>
@@ -189,7 +188,7 @@
         <article class="glass-card rounded-xl overflow-hidden flex flex-col reveal-bottom group">
     <div class="relative h-48 overflow-hidden bg-[#0a0a0a]">
         
-        <img src="TelaInicial/imagem/IMG PROJETOS/Sistemade analise.png" 
+        <img src="/imagem/IMG PROJETOS/Sistemade analise.png" 
              alt="Data Analysis System" 
              class="h-100 w-100 object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">        
         
@@ -212,7 +211,7 @@
         <article class="glass-card rounded-xl overflow-hidden flex flex-col reveal-bottom group">
     <div class="relative h-48 overflow-hidden bg-[#0a0a0a]">
         
-        <img src="TelaInicial/imagem/IMG PROJETOS/user-management-api.png" 
+        <img src="/imagem/IMG PROJETOS/user-management-api.png" 
              alt="User Management API" 
              class="w-full h-full object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700">        
         
@@ -308,31 +307,6 @@
         </div>
     </div>
 </section>
-
         </main>
-        <script>
-        // Lógica do Menu Mobile
-        const btn = document.getElementById('menu-toggle');
-        const menu = document.getElementById('mobile-menu-content');
-        const links = document.querySelectorAll('.mobile-link');
-
-        btn.addEventListener('click', () => {
-            menu.classList.toggle('hidden');
-        });
-
-        links.forEach(link => {
-            link.addEventListener('click', () => menu.classList.add('hidden'));
-        });
-
-        // Scroll Reveal
-        const sr = ScrollReveal({
-            distance: '40px',
-            duration: 1000,
-            delay: 100,
-            reset: false
-        });
-        sr.reveal('.reveal-bottom', { origin: 'bottom' });
-        sr.reveal('.reveal-left', { origin: 'left' });
-    </script>
     </body>
     </html>
