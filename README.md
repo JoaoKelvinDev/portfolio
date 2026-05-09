@@ -47,21 +47,6 @@ Este portfólio reúne alguns dos meus principais projetos, experiências e tecn
 
 ---
 
-## Projetos
-
-### User Management API
-
-API REST desenvolvida em Node.js utilizando autenticação JWT, Sequelize e arquitetura modular para gerenciamento de usuários e controle de acesso.
-
-### AçaiKiDeliciaPL
-
-Plataforma web para pedidos online de açaí com personalização de produtos e integração via WhatsApp, desenvolvida para digitalizar o processo de atendimento e pedidos da loja.
-
-### Data Analysis System
-
-Sistema em Python para automação de processamento de dados e geração automatizada de relatórios PDF.
-
----
 
 ## Acesso ao Portfólio
 
