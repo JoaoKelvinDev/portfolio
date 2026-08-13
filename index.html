@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="pt-BR" class="scroll-smooth">
     <head>
         <meta charset="utf-8" />
@@ -32,16 +32,52 @@
         <main class="max-w-6xl mx-auto px-4 sm:px-6 pt-20 sm:pt-40">
             
             <section id="Inicio" class="mb-12 sm:mb-20 reveal-bottom" style="scroll-margin-top:4rem;">
-                <h1 class="text-2xl sm:text-4xl md:text-6xl font-extrabold tracking-tight mb-6 sm:mb-8 leading-[1.1]">
-                    Desenvolvo APIs, integrações e automações com <br>
-                    <span class="text-zinc-500">Node.js, Python, SQL e NoSQL.</span>
-                </h1>
-                <p class="text-base sm:text-lg md:text-xl text-zinc-400 max-w-2xl leading-relaxed mb-8 sm:mb-10 font-light italic">
-                    Crio soluções robustas e escaláveis, priorizando organização, desempenho e manutenção.
-                </p>
-                <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
-                    <a href="mailto:jkelvindev@gmail.com" class="bg-white text-black px-4 sm:px-6 py-2 sm:py-3 font-bold text-xs sm:text-sm hover:bg-zinc-200 transition text-center">INICIAR PROJETO</a>
-                    <a href="https://github.com/JoaoKelvinDev" target="_blank" class="border border-white/10 px-4 sm:px-6 py-2 sm:py-3 font-bold text-xs sm:text-sm hover:bg-white/5 transition text-center">GITHUB</a>
+                <div class="grid lg:grid-cols-[1.15fr_1fr] gap-10 lg:gap-16 items-center">
+                    <div>
+                        <div class="inline-flex items-center gap-2 mb-6 px-3 py-1.5 rounded-full border border-white/10 bg-white/5">
+                            <span class="relative flex h-1.5 w-1.5">
+                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                                <span class="relative inline-flex rounded-full h-1.5 w-1.5 bg-green-400"></span>
+                            </span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-400">Disponível para Estagiário, Júnior ou Jovem Aprendiz. </span>
+                        </div>
+
+                        <h1 class="text-2xl sm:text-4xl md:text-6xl font-extrabold tracking-tight mb-6 sm:mb-8 leading-[1.1]">
+                            Back-End em Node.js e Python. <br>
+                            <span class="text-zinc-500">Full-Stack quando o projeto exige.</span>
+                        </h1>
+                        <p class="text-base sm:text-lg md:text-xl text-zinc-400 max-w-2xl leading-relaxed mb-6 sm:mb-8 font-light italic">
+                            Crio APIs REST, automações e integrações entre sistemas com foco em performance e escalabilidade  do banco de dados ao React, cuido do ciclo completo quando é necessário.
+                        </p>
+
+                        <div class="flex flex-wrap gap-2 mb-8 sm:mb-10">
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500 border border-white/10 rounded-full px-3 py-1">Node.js</span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500 border border-white/10 rounded-full px-3 py-1">Python</span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500 border border-white/10 rounded-full px-3 py-1">Supabase</span>
+                            <span class="text-[10px] font-bold uppercase tracking-widest text-zinc-500 border border-white/10 rounded-full px-3 py-1">MongoDB</span>
+
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4">
+                            <a href="mailto:jkelvindev@gmail.com" class="bg-white text-black px-4 sm:px-6 py-2 sm:py-3 font-bold text-xs sm:text-sm hover:bg-zinc-200 transition text-center">INICIAR PROJETO</a>
+                            <a href="https://github.com/JoaoKelvinDev" target="_blank" class="border border-white/10 px-4 sm:px-6 py-2 sm:py-3 font-bold text-xs sm:text-sm hover:bg-white/5 transition text-center">GITHUB</a>
+                        </div>
+                    </div>
+
+                   <div class="glass-card rounded-xl p-5 sm:p-6 font-mono text-[11px] sm:text-xs leading-relaxed border border-white/10 hidden sm:block">
+                        <div class="flex items-center gap-1.5 mb-4">
+                            <span class="w-2.5 h-2.5 rounded-full bg-red-500/60"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-yellow-500/60"></span>
+                            <span class="w-2.5 h-2.5 rounded-full bg-green-500/60"></span>
+                            <span class="ml-2 text-zinc-600 text-[10px]">api.js</span>
+                        </div>
+                        <p><span class="text-blue-400">GET</span> <span class="text-zinc-300">/api/status</span></p>
+                        <p class="text-zinc-500">{</p>
+                        <p class="pl-4 text-zinc-500">"server": <span class="text-green-400">"online"</span>,</p>
+                        <p class="pl-4 text-zinc-500">"uptime": <span class="text-yellow-400">"127d"</span>,</p>
+                        <p class="pl-4 text-zinc-500">"stack": <span class="text-green-400">"Node.js + Python"</span></p>
+                        <p class="text-zinc-500">}</p>
+                    </div>
                 </div>
             </section>
 
@@ -173,7 +209,21 @@
     <h2 class="text-xs font-black uppercase tracking-[0.3em] text-zinc-600 mb-8 sm:mb-12 italic">Projetos</h2>
     
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
-        
+
+        <article class="glass-card rounded-xl overflow-hidden flex flex-col reveal-bottom group border border-blue-500/20">
+            <div class="relative h-40 sm:h-48 overflow-hidden bg-gradient-to-br from-blue-950/40 via-[#0a0a0a] to-[#0a0a0a] flex items-center justify-center">
+                <img src="assets/IMG PROJETOS/sea-logo.jpg" alt="SEA Logo">
+                <span class="absolute top-3 right-3 text-[9px] font-bold uppercase tracking-widest bg-blue-500/15 text-blue-300 border border-blue-500/30 rounded-full px-2.5 py-1">Startup Piauí</span>
+            </div>
+            <div class="p-4 sm:p-6 flex-1 flex flex-col">
+                <h3 class="font-bold text-base sm:text-lg mb-2 group-hover:text-blue-400 transition-colors">SEA - Sistema Educacional Avançado</h3>
+                <p class="text-[11px] sm:text-xs text-zinc-500 mb-4 flex-1 leading-relaxed">Professores enfrentam sobrecarga de trabalho  múltiplas turmas, tarefas administrativas e pouco tempo para criar atividades de qualidade  o que resulta em menor acompanhamento individual de alunos com dificuldade.</p>
+                <p class="text-[11px] sm:text-xs text-zinc-500 mb-4 flex-1 leading-relaxed">O SEA resolve isso combinando reconhecimento de voz e IA generativa: o professor descreve por voz o que precisa e recebe, em segundos, uma atividade pedagógica completa  incluindo correção automática de dissertativas e identificação das dificuldades da turma.</p>
+                <p class="text-[11px] sm:text-xs text-zinc-500 mb-4 flex-1 leading-relaxed">Desenvolvida com React/TypeScript,Deploy na Vercel e Supabase como banco de dados. IA generativa (Deepgram + Gemini).</p>
+                <span class="text-[9px] sm:text-[10px] font-bold border border-blue-500/30 text-blue-300 py-2 text-center uppercase tracking-widest rounded">Em qualificação — Startup Piauí</span>
+            </div>
+        </article>
+
         <article class="glass-card rounded-xl overflow-hidden flex flex-col reveal-bottom group">
             <div class="relative h-40 sm:h-48 overflow-hidden bg-[#0f0f0f] flex items-center justify-center p-2">
 
